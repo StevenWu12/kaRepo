@@ -1,0 +1,14 @@
+<addon id="plugin.video.duboku"
+       name="Duboku TV"
+       version="1.0.0"
+       provider-name="Steven Wu">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary>Watch Chinese Dramas via Duboku</summary>
+        <description>Stream Duboku content from various geographic subdomains with error handling and dynamic link parsing.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
